@@ -5,26 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sudoku-Webpage</title>
 <link rel= "stylesheet" href = "css/mystyle.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <!--Inline Styling-->
-
-
-
-
 
 <!-- Navbar-->
 <header>
 <div class = "top-screen">
     <div class = "nav-bar-format" style = "letter-spacing: 3px;">
-        <a href = "#home" class = "bar-item" style = "text-decoration: none; color: black">Sudoku</a>
+        <a href = "index.html" class = "bar-item" style = "text-decoration: none; color: black">Sudoku</a>
         <!--Right Side of the Screen-->
         <div class = "right">
-            <a href = "#rules" class = "bar-item" style = "text-decoration: none; color: black">Rules</a>
-            <a href = "#history" class = "bar-item" style = "text-decoration: none; color: black">History</a>
-            <a href = "#about" class = "bar-item" style = "text-decoration: none; color: black">About Me</a>
-            <a href = "#contact" class = "bar-item" style = "text-decoration: none; color: black">Contact</a>
+            <a href = "info.html#rules" class = "bar-item" style = "text-decoration: none; color: black">Rules</a>
+            <a href = "info.html#history" class = "bar-item" style = "text-decoration: none; color: black">History</a>
+            <a href = "info.html#about" class = "bar-item" style = "text-decoration: none; color: black">About Me</a>
+            <a href = "info.html#contact" class = "bar-item" style = "text-decoration: none; color: black">Contact</a>
             <a href = "login" class = "bar-item" style = "text-decoration : none; color: black"> Login</a>
         </div>
     </div>
@@ -35,192 +30,160 @@
 <body>
 <!-- Page Content-->
 
-<div class = "content" style = "max-width:1100px">
+<div>
     <!--Home/Game Play Section-->
     
-    <section class= "section" id = "home">
-    <h2>Let's Play!</h2>
-     <!--Game Area-->
-    <section>
-        <button id="restart" type="button">Restart</button>
-    </section> 
-    
-     <div class="container">
-        <div class="line">
-            <div><p class="9"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="8"></p></div>
-        </div>
-
-        <div class="line">
-            <div><p class="1"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="3"></p></div>
-        </div>
-
-        <div class="line">
-            <div><p class="8"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="5"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="3"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="7"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="5"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="2"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="7"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="4"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="2"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="6"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="4"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="1"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="6"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="9"></p></div>
-        </div>
-        <div class="line">
-            <div><p class="6"></p></div>
-            <div><p class="9"></p></div>
-            <div><p class="8"></p></div>
-            <div><p class="4"></p></div>
-            <div><p class="7"></p></div>
-            <div><p class="5"></p></div>
-            <div><p class="3"></p></div>
-            <div><p class="2"></p></div>
-            <div><p class="1"></p></div>
-        </div>
-    </div>
+    <section style = "padding-top: 100px;" id = "home">
+        <h2>Let's Play!</h2>
+        <!--Game Area-->
+        <section>
+            <button id="restart" type="button">Restart</button>
+        </section>
+       
         
-    </section>
-
-
-    <!--Rules-->
-    <section class = "section" id = "rules">
-        <h2>Rules of the Game</h2>
-        <p>
-            Sudoku is a logic base, combinatorial number place puzzle game. The objective of this game is to fill out a 9 X 9 grid with digits so that each column, each row and each of the nine 3x3 subgrids contain  all the digits from 1 to 9. Each number can only appear once in a row, column or box.
-
-        </p>
-
-        <p>
-            In each game, the player is provided with a partially completed grid. Each puzzle should only have one 
-            correct solution.
-        </p>
-    </section>
-
-
-    <!--History-->
-    <section class = "section" id = "history">
-        <h2>History of Sudoku</h2>
-        <p style= "display:inline-block;">
-            Number puzzles similar to Sudoku first appeared in print in the late 19th century when
-             French puzzle setters began expermenting with magic squares. However, they largely disappeared from publications by World War I. The modern iteration of Sudoku was most likely created by a retired architect in Indiana in the 1970s. It would later be introducted to Japan by a paper called the Montly Nikolist in the 1980s. Sudoku quickly gained popularity in Japan, but it would take another 
-            20 years for this game to become popular in the West. 
-        </p>
-
-    </section>
-
-
-     <!--About Section-->
-     <section class = "section" id = "about">
-         <h2>About Me</h2>
-         <img src= "https://i.imgur.com/TePtQzO.jpg" class = "round image" width = 225px; height = 300px alt = "https://i.imgur.com/8cPexXo.png">
-         <p style = "display: flex">
-            I am currently a Computer Science major at Queens College. This is my second year at this college. I want to be a full-stack developer. During the week, I also work full time as a Rad-Tech. During quarantine, I learned how to make sour-dough bread.
-         </p>
+        <section class ="gameboard">
+            <div class="container">
+                <div class="line">
+                    <div><p class="9"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="8"></p></div>
+                </div>
+        
+                <div class="line">
+                    <div><p class="1"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="3"></p></div>
+                </div>
+        
+                <div class="line">
+                    <div><p class="8"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="5"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="3"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="7"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="5"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="2"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="7"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="4"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="2"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="6"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="4"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="1"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="6"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="9"></p></div>
+                </div>
+                <div class="line">
+                    <div><p class="6"></p></div>
+                    <div><p class="9"></p></div>
+                    <div><p class="8"></p></div>
+                    <div><p class="4"></p></div>
+                    <div><p class="7"></p></div>
+                    <div><p class="5"></p></div>
+                    <div><p class="3"></p></div>
+                    <div><p class="2"></p></div>
+                    <div><p class="1"></p></div>
+                </div>
+            </section>
      </section>
+     
 
-     <!--Contact Section-->
-     <section  id = "contact">
-         <h2>Contact Me</h2>
-         <div  style = "text-align: center">
-            <p><i class = "material-icons">mail</i> josephine.pho8799@gmail.com</p>
-        
+
+     <section class = "footer">
+        <h5>More Ways To Play</h5>
+        <div class = "d-flex justify-content-center">
+            <a href = "https://www.websudoku.com/">
+                <img src = "https://image.flaticon.com/icons/svg/2241/2241455.svg" width = "100px" height = "100px">
+            </a>
+            <a href = "https://sudoku.game/">
+                <img src = "https://image.flaticon.com/icons/svg/2241/2241256.svg" width = "100px" height = "100x">
+            </a>
+            <a href = "https://sudoku.com/">
+                <img src = "https://image.flaticon.com/icons/svg/2241/2241279.svg" width = "100px" height = "100px">
+            </a>
         </div>
-            
+    
+        <div style = "text-align: center;">
+        <a href = "https://en.wikipedia.org/wiki/Sudoku">Learn More</a>
+        </div>    
+       
     </section>
 
 
+</div>
+
+  
 
 
-</section>
 
 
-
-
-<script type = "text/javascript" src = "sudoku.js"></script>
+<script src = "sudoku.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <h3>More Places to Play</h3>
-    <div>
-    <ul style = "list-style-type: square type square; text-align: center;" >
-        <li> <a href="https://sudoku.com/">sudoku.com</a></li>
-        <li>  <a href="https://www.websudoku.com/">websudoku.com</a></li>
-        <li> <a href= "https://sudoku.game/">sudoku.game</a></li>
-    </ul>
 
-    
-    <a href= "https://www.google.com/search?q=sudoku">Click here to learn more</a>
-    
-    </div>
 
-</footer>
+
+
 </html>
